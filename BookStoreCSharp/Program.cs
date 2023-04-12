@@ -19,7 +19,7 @@ Console.WriteLine("TITOLO: " + title);
 Console.WriteLine("AUTORE: " + author);
 Console.WriteLine("ISBN-10: " + ISBN10);
 Console.WriteLine("NUMERO PAGINE: " + numeroPagine + " pagine");
-Console.WriteLine("PESO ARTICOLO: " + pesoLibro);
+Console.WriteLine("PESO ARTICOLO: " + pesoLibro + " kg");
 Console.WriteLine("DIMENSIONI: " + larghezza + " x " + profondità + " x " + lunghezza + " cm");
 
 
