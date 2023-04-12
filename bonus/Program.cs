@@ -1,4 +1,4 @@
-﻿Console.WriteLine("------ LIBRO DI OGGI -----");
+﻿Console.WriteLine("------ LIBRO DI OGGI ------");
 string title = Console.ReadLine();
 Console.WriteLine();
 
@@ -38,13 +38,26 @@ string isFlessibile = Console.ReadLine();
 Console.WriteLine();
 
 
-Console.WriteLine("IL LIBRO DI OGGI: " + title + " di " + author);
+Console.WriteLine("LIBRO SELEZIONATO: " + title + " di " + author);
 
 Console.WriteLine();
 
-Console.WriteLine("Informazioni generiche: ");
+Console.WriteLine("informazioni generiche: ");
 
 Console.WriteLine();
 
 Console.WriteLine("ISBN: " + ISBN10);
 Console.WriteLine("NUMERO PAGINE: " + numeroPagine + " pagine");
+Console.WriteLine("PESO ARTICOLO: " + pesoLibro + " g");
+Console.WriteLine("DIMENSIONI: " + larghezza + " x " + lunghezza + " x " + profondità + " cm");
+
+Console.WriteLine();
+
+Console.WriteLine("informazioni Amazon:");
+
+Console.WriteLine();
+
+Console.WriteLine("NUMERO DI RECENSIONI: " + recensioni + " recensioni");
+Console.WriteLine("VALUTAZIONE MEDIA: " + valutazioneMedia + " su 5");
+Console.WriteLine("FORMATO KINDLE: " + isKindle + ", 15,28 euro");
+Console.WriteLine("COPERTINA FLESSIBILE: " + isFlessibile + ", 28,27 euro");
