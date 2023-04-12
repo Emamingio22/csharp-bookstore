@@ -57,5 +57,9 @@ else
     flessibile = "NO";
 }
 
+Console.WriteLine("NUMERO DI RECENSIONI: " + recensioni + " recensioni");
+Console.WriteLine("VALUTAZIONE MEDIA: " + valutazioneMedia + " su 5");
+Console.WriteLine("FORMATO KINDLE: " + isKindle + " (15,28 euro)");
+Console.WriteLine("COPERTINA FLESSIBILE: " + isFlessibile + " (28,27 euro)");
 
 
